@@ -132,7 +132,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 89326652}
-  - component: {fileID: 89326651}
+  - component: {fileID: 89326653}
   m_Layer: 0
   m_Name: HelloWorld
   m_TagString: Untagged
@@ -140,23 +140,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &89326651
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 89326650}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b6b00f3e34513f4f8f714c91c14f85b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  intInput: 16
-  floatInput: 66.74447
-  stringInput: gndfonsodng
-  boolInput: 1
-  vhhbdshsbd: 34edcbgfhzi
 --- !u!4 &89326652
 Transform:
   m_ObjectHideFlags: 0
@@ -172,55 +155,30 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &451534479
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 451534481}
-  - component: {fileID: 451534480}
-  m_Layer: 0
-  m_Name: HelloWorld (3)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &451534480
+--- !u!114 &89326653
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 451534479}
+  m_GameObject: {fileID: 89326650}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8b6b00f3e34513f4f8f714c91c14f85b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  intInput: 72
-  floatInput: 76.5
-  stringInput: gndfonsodng
-  boolInput: 1
-  vhhbdshsbd: 34edcbgfhzi
---- !u!4 &451534481
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 451534479}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  input1: 1
+  input2: 1
+  summa: 2
+  "k\xFCl\xF6nbs\xE9g": 0
+  mod: 0
+  a: 44
+  b: 36
+  c: 72
+  mean: 50.666668
+  radius: 1
+  circumrerance: 6.2831855
+  area: 3.1415927
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -315,55 +273,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
---- !u!1 &861189994
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 861189996}
-  - component: {fileID: 861189995}
-  m_Layer: 0
-  m_Name: HelloWorld (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &861189995
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 861189994}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b6b00f3e34513f4f8f714c91c14f85b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  intInput: -10
-  floatInput: 10
-  stringInput: gndfonsodng
-  boolInput: 1
-  vhhbdshsbd: 34edcbgfhzi
---- !u!4 &861189996
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 861189994}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -448,7 +357,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1544744792
+--- !u!1 &1822631150
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -456,46 +365,48 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1544744794}
-  - component: {fileID: 1544744793}
+  - component: {fileID: 1822631152}
+  - component: {fileID: 1822631151}
   m_Layer: 0
-  m_Name: HelloWorld (2)
+  m_Name: Logical Operations
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1544744793
+--- !u!114 &1822631151
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1544744792}
+  m_GameObject: {fileID: 1822631150}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b6b00f3e34513f4f8f714c91c14f85b, type: 3}
+  m_Script: {fileID: 11500000, guid: ad85a0063c40a8743bb9983b6f79c86a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  intInput: 2
-  floatInput: 3
-  stringInput: gndfonsodng
-  boolInput: 1
-  vhhbdshsbd: 34edcbgfhzi
---- !u!4 &1544744794
+  firstName: tttt
+  familyName: tttt
+  born: 2010
+  height: 177
+  isAlive: 1
+  blabla: 1
+  krixkrax: 1
+--- !u!4 &1822631152
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1544744792}
+  m_GameObject: {fileID: 1822631150}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1848844248
 GameObject:
